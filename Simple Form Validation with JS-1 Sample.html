@@ -1,0 +1,30 @@
+<html>
+<head>
+	<script type="text/javascript" >
+
+	function validator(){
+		var x=document.buckysForm.username.name;
+		document.write(x);
+
+		if(document.buckysForm.thebox.checked)
+			alert("Yup it checked");
+		else
+			alert("Please check it");
+	}
+	</script>
+	</head>
+	<body>
+		
+<form name="buckysForm">
+Username:<input type="text" name="username" />
+Password:<input type="password" name="password" />
+<input type="checkbox" name="thebox" />
+<input type="button" value="Submit" onclick="validator()" />
+</form>
+
+
+
+	</body>
+
+
+</head>
