@@ -1,0 +1,7 @@
+Download Sublime Text
+Download node js
+follow this in command line for live-server
+npm install -g live-server 
+cd [Location]
+drivename: eg f:
+live-server --port=9000
