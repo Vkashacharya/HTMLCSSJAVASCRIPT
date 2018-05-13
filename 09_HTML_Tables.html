@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table TAG</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+        }
+        #custom_table th{
+            background-color: red;
+            color: white;
+        }
+      
+        table ,th,td{
+            border: 2px solid red;
+            border-collapse:collapse;
+            text-align: center;
+            padding: 10px;
+
+        }
+       
+    </style>
+</head>
+<body>
+
+    <!-- Simple Table -->
+    <h2> Simple Table </h2>
+   <table width="100%">
+       <thead>
+       <tr>
+           <th>S.N</th>
+           <th>NAME</th>
+           <th>COUNTRY</th>
+           </tr>
+       </thead>
+       <tbody>
+       <tr>
+           <td>1</td>
+            <td>Bikash</td>
+             <td>Nepal</td>
+        </tr>
+         <tr>
+           <td>2</td>
+            <td>Deependra</td>
+             <td>US</td>
+        </tr>
+         <tr>
+           <td>3</td>
+            <td>Bijay</td>
+             <td>Australia</td>
+        </tr>
+       </tbody>
+   </table>
+    <!-- Simple Table with Borders-->
+    <h2> Simple Table with Borders </h2>
+   <table width="100%" >
+       <thead>
+       <tr>
+           <th>S.N</th>
+           <th>NAME</th>
+           <th>COUNTRY</th>
+           </tr>
+       </thead>
+       <tbody>
+       <tr>
+           <td>1</td>
+            <td>Bikash</td>
+             <td>Nepal</td>
+        </tr>
+         <tr>
+           <td>2</td>
+            <td>Deependra</td>
+             <td>US</td>
+        </tr>
+         <tr>
+           <td>3</td>
+            <td>Bijay</td>
+             <td>Australia</td>
+        </tr>
+       </tbody>
+   </table>
+    <!-- Table with Col Span -->
+    <h2> Table with Col Span </h2>
+    
+   <table width="100%">
+       <thead>
+       <tr>
+           <th>S.N</th>
+           <th colspan="2">NAME & Country</th>
+           
+           </tr>
+       </thead>
+       <tbody>
+       <tr>
+           <td>1</td>
+            <td>Bikash</td>
+             <td>Nepal</td>
+        </tr>
+         <tr>
+           <td>2</td>
+            <td>Deependra</td>
+             <td>US</td>
+        </tr>
+         <tr>
+           <td>3</td>
+            <td>Bijay</td>
+             <td>Australia</td>
+        </tr>
+       </tbody>
+   </table>
+   
+    <!-- Table With Row Span -->
+    <h2> Table With Row Span </h2>
+ 
+   <table width="100%">
+       <thead>
+       <tr>
+           <th>S.N</th>
+           <th>NAME</th>
+           <th>COUNTRY</th>
+           </tr>
+       </thead>
+       <tbody>
+       <tr>
+           <td rowspan="2">1</td>
+            <td>Bikash</td>
+             <td>Nepal</td>
+        </tr>
+         <tr>
+           
+            <td>Deependra</td>
+             <td>US</td>
+        </tr>
+         <tr>
+           <td>2</td>
+            <td>Bijay</td>
+             <td>Australia</td>
+        </tr>
+       </tbody>
+   </table>
+   
+    <!-- Custom Table with CSS -->
+    <h2> Custom Table with CSS </h2> 
+ 
+   <table width="100%" id="custom_table">
+       <thead>
+       <tr>
+           <th>S.N</th>
+           <th>NAME</th>
+           <th>COUNTRY</th>
+           </tr>
+       </thead>
+       <tbody>
+       <tr>
+           <td>1</td>
+            <td>Bikash</td>
+             <td>Nepal</td>
+        </tr>
+         <tr>
+           <td>2</td>
+            <td>Deependra</td>
+             <td>US</td>
+        </tr>
+         <tr>
+           <td>3</td>
+            <td>Bijay</td>
+             <td>Australia</td>
+        </tr>
+       </tbody>
+   </table>
+
+</body>
+</html>
