@@ -1,0 +1,35 @@
+/* This file should be in a folder called `css` */
+
+figure{
+        	border: 5px solid skyblue ;
+        	width: 300px;
+        	padding: 10px;
+        	border-radius: 10px;
+        	text-align: center;
+        	float: left;
+        	margin: 0px;
+        }
+ figcaption{
+        	padding: 10px;
+        	font-size: 25px;
+        }
+        figure:hover{
+        	box-shadow: 5px 5px 5px gray;
+        }
+h1{
+  font-family: 'Lato';
+  text-align: center;
+color: skyblue;
+float: right;
+border-width: 50px;
+  border: 5px solid red;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#clock {
+  font-weight: 300;
+  font-size: 25px;
+  margin: 0PX;
+}
+
